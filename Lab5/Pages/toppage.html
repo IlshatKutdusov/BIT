@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8" />
+		<title>
+			 Лабораторная работа №5 ОИТ
+		</title>
+		<script>
+			var i=1;
+			arrGif=["Images/lic145_1.jpg", "Images/lic145_2.jpg", "Images/lic145_3.jpg"];
+			window.onload=function(){
+				setInterval(fn,5000);
+			}
+			function fn(){
+				document.getElementById("im").src=arrGif[i];
+				i++;
+				if(i>2)i=0;
+			}
+		</script>
+		<link href="toppagestyle.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="head">
+			<div id="imagelic145">
+				<img id="im" src="Images/lic145_1.jpg" alt="Перезагрузите страницу!" />
+				<p align="center" id="contacts">
+					420127, г. Казань, ул. Дементьева, д. 16
+					+7(843)-571-97-73 +7(843)-571-32-23
+					L145.kzn@tatar.ru
+				</p>
+			</div>
+			<div>
+				<div id="logo">
+					<a href="toppage.html">
+						<img src="Images/logo.png" />
+					</a>
+				</div>
+				<div id="infodiv">
+					<ul id="infoul1">
+						<li>Министерство:</li>
+						<li>Короткое название:</li>
+						<li>Руководитель:</li>
+						<li>Год основания учреждения:</li>
+						<li>У нас учатся</li>
+						<li>У нас учат</li>
+					</ul>
+					<ul id="infoul2">
+						<li>Министерство образования и науки Республики Татарстан</li>
+						<li>МБОУ "Лицей № 145"</li>
+						<li><a href="headerinfo.html">Идиятов Данил Гафиятуллович</a></li>
+						<li>1991</li>
+						<li>409 учащихся</li>
+						<li>43 педагога</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div id="menu">
+					<ul style="LIST-STYLE-IMAGE: url(Images/item.png)">
+						<li><a href="aboutinfo.html">Сведения об образовательной организации</a></li>
+						<li><a href="distancelearning.html">Дистанционное образование</a></li>
+						<li><a href="parents.html">Родителям</a></li>
+						<li><a href="gto.html">ГТО</a></li>
+					</ul>
+				</div>
+				<div id="newslist">
+					<ul>
+						<li>
+							<div class="newsitem" id="News1">
+								<h3>
+									75 пятерок
+								</h3>
+								<p class="newstext">
+									Ученики 7-х классов МБОУ «Лицей  №145» г. Казани приняли участие в акции «75 пятерок – это наша Победа!»
+   									На уроках родной и русской литературы ребята выразительно читали стихотворения о Великой Отечественной войне и о Родине на татарском и русском языках, получали пятерки.
+								</p>
+								<p class="newsdata"><br>
+									Опубликовано: 07.05.2020
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="newsitem" id="News2">
+								<h3>
+									Дорогами Победы
+								</h3>
+								<p class="newstext">
+									Начинается акция «10 дней до Победы».
+									Можно посмотреть галлерею рисунков "Открытка ветерану".
+									Можно посетить виртуальный музей одного экспоната.
+								</p>
+								<p class="newsdata"><br><br><br>
+									Опубликовано: 29.04.2020
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="newsitem" id="News3">
+								<h3>
+									О дистанционном образовании
+								</h3>
+								<p class="newstext">
+									Дистанционное обучение в лицее начинается 6 апреля.
+									Расписание занятий и прочая информация расположены во вкладке "Дистанционное образование"
+								</p>
+								<p class="newsdata"><br><br><br>
+									Опубликовано: 04.04.2020
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="newsitem" id="News4">
+								<h3>
+									День открытых дверей переносится
+								</h3>
+								<p class="newstext">
+									В условиях сложившейся ситуации, связанной с распространением короновирусной инфекции, «День открытых дверей» запланированный на 28.03.2020г. переносится на неопределенный срок. О сроках проведения будет сообщено дополнительно
+								</p>
+								<p class="newsdata"><br><br>
+									Опубликовано: 18.03.2020
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="newsitem" id="News5">
+								<h3>
+									Профориентационная встреча
+								</h3>
+								<p class="newstext">
+									Профориентационная встреча с лектором учебного центра « Максимум» «Как стать успешным старшеклассником». 13.03.2020
+								</p>
+								<p class="newsdata"><br><br><br>
+									Опубликовано: 13.03.2020
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+﻿body {
+	margin : 0 0;
+	background-image: url('Images/indexbg.jpg');
+	background-position: center center;
+	background-size: 450px 450px;
+	background-color: #000000;
+	font-family: Arial, Verdana, sans-serif;
+}
+#header {
+	width: 1000px;
+	height: 120px;
+	background-image: url('Images/header.png');
+	background-position: center center;
+	margin: 10px auto;
+}
+#headertext {
+	text-align: center;
+	padding-top: 15px;
+}
